@@ -1,4 +1,4 @@
-# ⚡ Squeeze — File Compressor
+# Pipershrink — File Compressor
 
 A modern, mobile-first web app that compresses **text, images, video, and ZIP archives** entirely in the browser.  
 **No server. No uploads. Files never leave your device.**
@@ -7,7 +7,7 @@ A modern, mobile-first web app that compresses **text, images, video, and ZIP ar
 
 ## What This Is
 
-Squeeze is a full web rebuild of a Python/Tkinter desktop application that used:
+Pipershrink is a full web rebuild of a Python/Tkinter desktop application that used:
 - `Huffman_Compression_Decompression.py` — Huffman coding for text
 - `JPEG.py` — DCT-based image compression
 - `video.py` — FFmpeg subprocess for video
@@ -31,7 +31,7 @@ Every algorithm has been faithfully ported or delegated to browser-native equiva
 ## Project Structure
 
 ```
-squeeze-app/
+Pipershrink-app/
 ├── public/
 │   └── index.html            # HTML shell, Google Fonts
 ├── src/
@@ -56,7 +56,7 @@ squeeze-app/
 ## Quick Start (Local)
 
 ```bash
-cd squeeze-app
+cd Pipershrink-app
 npm install
 npm start
 # → http://localhost:3000
@@ -69,7 +69,7 @@ npm start
 ### Option A — Vercel (recommended)
 ```bash
 npm install -g vercel
-cd squeeze-app
+cd Pipershrink-app
 vercel
 ```
 Or: push to GitHub → import at vercel.com → done. The `vercel.json` handles all config.
@@ -89,7 +89,7 @@ Or: connect GitHub repo, set build command `npm run build`, publish dir `build`.
 ### Option C — GitHub Pages
 ```bash
 npm install -g gh-pages
-# Add to package.json: "homepage": "https://yourusername.github.io/squeeze"
+# Add to package.json: "homepage": "https://yourusername.github.io/Pipershrink"
 npm run build
 npx gh-pages -d build
 ```
